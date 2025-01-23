@@ -1,0 +1,37 @@
+# JournalAPI
+
+JournalAPI is a RESTful API designed to manage journal entries. It allows users to create, read, update, and delete journal entries efficiently.
+
+## Features
+
+- Create new journal entries
+- Retrieve existing journal entries
+- Update journal entries
+- Delete journal entries
+
+## Installation
+
+To install the dependencies, run:
+
+```bash
+npm install
+```
+
+## Usage
+
+To start the server, run:
+
+```bash
+npm start
+```
+
+The API will be available at `http://localhost:3000`.
+
+## Endpoints
+
+- `GET /entries` - Retrieve all journal entries
+- `POST /entries` - Create a new journal entry
+- `GET /entries/:id` - Retrieve a specific journal entry
+- `PUT /entries/:id` - Update a specific journal entry
+- `DELETE /entries/:id` - Delete a specific journal entry
+
